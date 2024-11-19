@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.9.6 on darwin)" generated="2024-11-19T09:40:05.309497" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/Users/alifyusof/PycharmProjects/fakeStoreAPI/tests">
+<suite id="s1-s1" name="Test Products" source="/Users/alifyusof/PycharmProjects/fakeStoreAPI/tests/test_products.robot">
+<test id="s1-s1-t1" name="Verify Getting All Products" line="9">
+<kw name="Get Resource">
+<msg time="2024-11-19T09:40:05.323588" level="FAIL">No keyword with name 'Get Resource' found.</msg>
+<var>${products}</var>
+<arg>${PRODUCTS}</arg>
+<status status="FAIL" start="2024-11-19T09:40:05.323569" elapsed="0.000044">No keyword with name 'Get Resource' found.</status>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<arg>${products}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="NOT RUN" start="2024-11-19T09:40:05.323707" elapsed="0.000011"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Products retrieved successfully.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-11-19T09:40:05.323779" elapsed="0.000009"/>
+</kw>
+<status status="FAIL" start="2024-11-19T09:40:05.322774" elapsed="0.001095">No keyword with name 'Get Resource' found.</status>
+</test>
+<status status="FAIL" start="2024-11-19T09:40:05.320862" elapsed="0.003197"/>
+</suite>
+<suite id="s1-s2" name="Test Users" source="/Users/alifyusof/PycharmProjects/fakeStoreAPI/tests/test_users.robot">
+<test id="s1-s2-t1" name="Verify Getting All Users" line="9">
+<kw name="Get Resource">
+<msg time="2024-11-19T09:40:05.326026" level="FAIL">No keyword with name 'Get Resource' found.</msg>
+<var>${users}</var>
+<arg>${USERS}</arg>
+<status status="FAIL" start="2024-11-19T09:40:05.326011" elapsed="0.000036">No keyword with name 'Get Resource' found.</status>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<arg>${users}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="NOT RUN" start="2024-11-19T09:40:05.326124" elapsed="0.000010"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Users retrieved successfully.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-11-19T09:40:05.326198" elapsed="0.000011"/>
+</kw>
+<status status="FAIL" start="2024-11-19T09:40:05.325465" elapsed="0.000820">No keyword with name 'Get Resource' found.</status>
+</test>
+<status status="FAIL" start="2024-11-19T09:40:05.324262" elapsed="0.002150"/>
+</suite>
+<status status="FAIL" start="2024-11-19T09:40:05.310463" elapsed="0.016178"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Products">Tests.Test Products</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="Test Users">Tests.Test Users</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-11-19T09:40:05.322530" level="ERROR">Error in file '/Users/alifyusof/PycharmProjects/fakeStoreAPI/tests/test_products.robot' on line 4: Error in file '/Users/alifyusof/PycharmProjects/fakeStoreAPI/resources/keywords.robot' on line 21: Resource file with 'Test Cases' section is invalid.</msg>
+<msg time="2024-11-19T09:40:05.325246" level="ERROR">Error in file '/Users/alifyusof/PycharmProjects/fakeStoreAPI/tests/test_users.robot' on line 4: Error in file '/Users/alifyusof/PycharmProjects/fakeStoreAPI/resources/keywords.robot' on line 21: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>
